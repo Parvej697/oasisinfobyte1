@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/port1.css">
+    
+</head>
+<body>
+   
+   <nav>
+    <div class="logo">
+        <h3 class="log">PARVEJ.</h3>
+    </div>
+
+    <div class="navbar">
+        <a href="#main" class="nav1">HOME</a>
+        <a href="#about" class="nav2">ABOUT</a>
+        <a href="#services" class="nav3">SERVICES</a>
+        <a href="#portfolio" class="nav4">PORTFOLIO</a>
+        <a href="#contact" class="nav5">CONTACT</a>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </div>
+   </nav>
+
+
+ 
+<div class="main">
+   <div class="biodata">
+    <h1 class="name"> Hi, I'm Parvej <span class="khan">Khan</span></h1>
+    <p class="detail">This is myofficial portfolio website to showcase my all works related to  Web Development.</p>
+    <div class="button">
+        <button class="btn">Download cv</button>
+    </div>
+    </div>
+
+   <div class="img">
+    <img  class="img1" src="portfolio2.jpg" alt="profile image">
+   </div>
+</div>
+
+
+<!-- -----------ABOUT------------- -->
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/about.jpg" alt="about">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About <span class="sub">me</span></h1>
+                <p class="CSE">Computer Science Student <br><br>
+                I'm a web Designer with extensive experience consider myself a responsible, and orderly person. Expertise is to create and website design, frontent design, and many more.
+                Seeking a challenging position in a reputable organization to expand and utilize my learning, skills and knowledge.</p>
+            <div class="nav-title">
+                <p class="nav-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="nav-links" onclick="opentab('certificate')">Certificate</p>
+                <p class="nav-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="nav-content active-tab" id="skills">
+                <ul>
+                    <li><span>C/C++</span><br>Application Software Design/Data Structures & Algorithm</li>
+                    <li><span>Web Development</span><br>Website Design with Html/Css/Javascript</li>
+                    <li><span>Java(Core+Advance)</span><br>Web Application</li>
+                </ul>
+            </div>
+
+            <div class="nav-content" id="certificate">
+                <ul>
+                    <li><span>Basic Web Development</span><br>HTMl & CSS Bootcamp</li>
+                    <li><span>C language</span><br>By Dataflair</li>
+                </ul>
+            </div>
+
+            <div class="nav-content" id="education">
+                <ul>
+                    <li><span>2023-2026</span><br>Currently pursuing B-tech from Medi-caps University</li>
+                    <li><span>2021-2022</span><br>Higher Secondary School from Pithmapur Public H.S School</li>
+                    <li><span>2019-2020</span><br>High School from Pithmapur Public H.S School</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+ <!---------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+               <img src="/logo1.png" alt="1">
+               <h2>C/C++</h2>
+               <p>C and C++ are programming languages used to create software and applications.
+               </p>
+               <a href="#">learn more</a>
+            </div>
+            <div>
+                <img src="/logo2.png" alt="2">
+                <h2>Java(Core+Adv)</h2>
+                    <p>Java is a popular computer programming language from simple phone apps to complex computer programs.
+                        "Core" Java refers to the basics you need to learn to get started, while "Advanced" Java involves more complex topics like web development and databases.</p>
+                        <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <img src="logo3.png" alt="3">
+                <h2>Web Development</h2>
+                    <p>Web development services include
+                       creating,designing, and maintaining
+                       websites and web applications ensuring 
+                       they look good, work well,and provide 
+                       the desired functionality for businesses
+                       and users online.</p>
+                        <a href="#">learn more</a>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span>work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/img4.jpg">
+                <div class="layer">
+                    <h3>Burger Website Design</h3>
+                    <p>I specialize in designing efficient and user-friendly Burger Website.
+                        I create compact website with user interface design, and this website is responsive.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                 <img src="/img5.jpg">
+                 <div class="layer">
+                    <h3>Snake Game Design</h3>
+                    <p>I created a Snake game which is user friendly and very well design.All the operations works very smoothly.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img6.jpg">
+                <div class="layer">
+                    <h3>Tic Tac Toe Game Design</h3>
+                    <p>I designed and developed an interesting Tic Tac Toe Game that that user can play with their friends, this game design looks great and interesting. 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+           </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+          <div class="contact-left">
+             <h1 class="sub-title">Contact <span>Me</span></h1>
+             <p><i class="fa-solid fa-paper-plane"></i>pk3580170@gmail.com</p>
+             <p><i class="fa-solid fa-square-phone"></i>9755076779</p>
+             <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+             </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Parvej<i class="fa-solid fa-heart"></i></p>
+
+    </div>
+</div>
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("nav-links");
+    var tabcontents = document.getElementsByClassName("nav-content");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");        
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right ="0";
+        
+    }
+    function closemenu()
+    {
+        sidemenu.style.right ="-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz8_x26-SD6cjBPY45ADvrdaut8fhx8coCUNGkg69rw-Svz9v4LwkLHyfjgMk88arg8oA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+     /* .then(response => console.log('Success!', response))*/
+     .then(response =>
+     {
+         msg.innerHTML="Message sent successfully"
+         setTimeout(function()
+         {
+            msg.innerHTML=""
+         },5000)
+         form.reset()
+     })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+</html>
